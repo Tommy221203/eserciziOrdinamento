@@ -27,7 +27,7 @@ namespace esercizio12
                 s.Stop();
                 long elapsed = s.ElapsedMilliseconds;
                 w.WriteLine($"BubbleSort;{array20.Length};{elapsed}");
-                Console.WriteLine($"BubbleSort  {array20.Length}  {elapsed}");
+                Console.WriteLine($"BubbleSort   {array20.Length}  {elapsed}");
                 s.Reset();
                 s.Start();
                 array = ScambioSentinella.Sentinellascambio.Sentinella(array20);
